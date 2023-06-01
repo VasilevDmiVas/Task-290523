@@ -79,7 +79,49 @@
 
 # Гоша Дударь itproger.com ютуб
 
-9.14 9.15 9.16 9.24 9.38а 9.41 9,59 9,76 б
-дана строка вывести ее наоборот
+# 9.14 9.15 9.16 9.24 9.38а 9.41 9,59 9,76 б
+# дана строка вывести ее наоборот
+
+# 9.14
+# text = input('Введите слово\n')
+# print(text[-1])
+
+# 9.15
+# text = input('Введите слово\n')
+# number = int(input('Введите номер символа который нужно вывести\n'))
+# print(text[number])
+
+# 9.16
+# text = input('Введите слово\n')
+# if text[2] == text[4]:
+#     print('Символы одинаковы')
+# else:
+#     print('Символы разные')
+
+# 9.24
+# text = 'Яблоко'
+# print(text[1:5])
+# print(text[3:6])
+
+# 9.38а
+# text = input('Введите слово из 12 букв\n')
+# if len(text) <= 12:
+#     print(text[8:12], text[4:8], text[0:4])
+#     print(f'{text[8:12]}{text[4:8]}{text[0:4]}')
+# else:
+#     print('Ошибка ввели > 12 символов')
+
+# 9.41
+# print('Л\nо\nк\nо\nм\nо\nт\nи\nв')
+# text = input('Введите текст \n')
+# text1 = len(text)
+# while text1 < 10:
+#     if text1 > 1:
+#         print(text[0],'\n',text[1],'\n',text[2],'\n')
 
 
+# 9.59
+text = input('Введите текст \n')
+# text1 = len(text)
+# print(list(text))
+print(text[::-1])
