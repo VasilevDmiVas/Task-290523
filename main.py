@@ -133,4 +133,4 @@
 # text = input('Введите текст \n')
 # text1 = len(text)
 # print(list(text))
-print(text[::-1])
+# print(text[::-1])
