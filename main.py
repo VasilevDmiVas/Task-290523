@@ -120,8 +120,17 @@
 #         print(text[0],'\n',text[1],'\n',text[2],'\n')
 
 
+# text = input('Введите текст \n')
+# text1 = len(text)
+# count = 0
+# while text1 < 10:
+#     if text == 'и':
+#         count +=1
+# print(count)
+
+
 # 9.59
-text = input('Введите текст \n')
+# text = input('Введите текст \n')
 # text1 = len(text)
 # print(list(text))
 print(text[::-1])
